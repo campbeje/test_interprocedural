@@ -8,11 +8,11 @@ Unless analysis is performed on the whole codebase together, serious crash causi
 
 Requirements to test:   
 
-Install Coverity analysis tools, and add to $PATH:
-  $ export PATH=<coverity_analysis install>/bin:$PATH
+Install Coverity analysis tools, and add to \$PATH:
+  \$ export PATH=<coverity_analysis install>/bin:$PATH
 
 Build:
-  $ make
+  \$ make
 
 Results will be in ./html directory:
-  $ open ./html/index.html
+  \$ open ./html/index.html
