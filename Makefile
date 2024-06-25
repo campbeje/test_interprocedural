@@ -1,4 +1,4 @@
-all:  clean coverityAnalyze clangAnalyze 
+all:  clean coverityAnalyze 
 
 build:
 	clang -c testA.c
@@ -13,9 +13,5 @@ coverityAnalyze:
 	cov-analyze --dir idir --all -co NULL_RETURNS:stat_threshold:0
 	cov-format-errors --dir idir --html-output html
 	open html/index.html
-
-#clangAnalyze:
-#	clang --analyze testA.c
-#	clang --analyze testB.c
 
 
