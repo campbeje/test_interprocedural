@@ -14,8 +14,8 @@ coverityAnalyze:
 	cov-format-errors --dir idir --html-output html
 	open html/index.html
 
-clangAnalyze:
-	clang --analyze testA.c
-	clang --analyze testB.c
+#clangAnalyze:
+#	clang --analyze testA.c
+#	clang --analyze testB.c
 
 
