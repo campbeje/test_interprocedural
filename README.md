@@ -14,7 +14,8 @@ Install Coverity analysis tools, and add to  $PATH:
 >  $ export PATH=<coverity_analysis install>/bin:$PATH
 
 ## Build:
->  $ make
+This will run the Coverity analysis on the source files:
+>  $ make coverityAnalyze
 
 ## Results will be in ./html directory:
 >  $ open ./html/index.html
