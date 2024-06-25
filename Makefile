@@ -1,4 +1,4 @@
-all:  clean coverityAnalyze 
+all:  clean build 
 
 build:
 	clang -c testA.c
